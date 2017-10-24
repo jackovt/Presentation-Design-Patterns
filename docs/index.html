@@ -79,7 +79,229 @@ Powered By [CapTech Consulting](https://www.captechconsulting.com)
 
 
 <!-- .slide: data-background="#2d2d2d" -->
-### Section
+### What are Design Patterns
+Software Design patterns, long story short, are lessons learned on how to write good, clean, maintainable code.
+
+They are the common and accepted ways that we write code in a way that communicates our intent and goals for the outcome of our code.
+
+<aside class="notes">
+		Notes
+</aside>
+
+---
+
+
+<!-- .slide: data-background="#2d2d2d" -->
+### Types of Design Patterns:
+* Creational
+* Structural
+* Behavioral
+
+<aside class="notes">
+		Notes
+</aside>
+
+---
+
+
+<!-- .slide: data-background="#2d2d2d" -->
+### Things I wish I had known in college (Jack)
+* I did not know what good code looked like.
+* I did not know what coding architecture meant or looked like
+* I knew theories, but had no experience
+
+<aside class="notes">
+		Notes
+</aside>
+
+---
+
+
+<!-- .slide: data-background="#2d2d2d" -->
+
+### What Helped
+* Robert C. Martin - "Clean Code"
+* Reading bad code
+* Reading good code
+* Reading my own code and realizing it was bad
+* The Five stages of Grief -> Accepting my code was bad
+* Making my bad code better
+
+<aside class="notes">
+		The five stages, Denial, Anger, Bargaining, Depression and Acceptance.
+</aside>
+
+---
+
+
+<!-- .slide: data-background="#2d2d2d" -->
+### Why Write Good Code?
+* We spend more time reading code than writing code
+* We WILL forget what we were doing
+* We will most likely change it later
+* Someone else might read it
+* Someone else might change it
+
+<aside class="notes">
+		Notes
+</aside>
+
+---
+
+
+<!-- .slide: data-background="#2d2d2d" -->
+### What is Good Code?
+Uncle Bob here.
+
+Clean Code: A Handbook of Agile Software Craftsmanship 
+by Robert C. Martin 
+Link: <a href="http://a.co/9wEHPUv">http://a.co/9wEHPUv</a>
+
+<aside class="notes">
+		Notes
+</aside>
+
+---
+
+
+<!-- .slide: data-background="#2d2d2d" -->
+### Bad Code - Examples
+
+<aside class="notes">
+		Notes
+</aside>
+
+---
+
+
+<!-- .slide: data-background="#2d2d2d" -->
+### Back to Design Patterns
+
+How do Design Patterns solve these problems?
+
+<aside class="notes">
+		Notes
+</aside>
+
+---
+
+
+<!-- .slide: data-background="#2d2d2d" -->
+### Creational Design Patterns
+
+Creational Design Patterns are ways we write code to create objects, all while removing the need to know how the object is created.
+
+<aside class="notes">
+		Notes
+</aside>
+
+
+--
+
+
+### Examples
+* Factory Method
+* Singleton
+* Abstract Factory
+* Prototype
+* Builder
+
+<aside class="notes">
+<p><h4>Factory Method</h4>            When a client object does not know which class to instantiate, it can make use of the factory method to create an instance of an appropriate class from a class hierarchy or a family of related classes. The factory method may be designed as part of the client itself or in a separate class. The class that contains the factory method or any of its subclasses decides on which class to select and how to instantiate it.</p>
+<p><h4>Singleton</h4>                 Provides a controlled object creation mechanism to ensure that only one instance of a given class exists.</p>
+<p><h4>Abstract Factory</h4>          Allows the creation of an instance of a class from a suite of related classes without having a client object to specify the actual concrete class to be instantiated.</p>
+<p><h4>Prototype</h4>                 Provides a simpler way of creating an object by cloning it from an existing (prototype) object.</p>
+<p><h4>Builder</h4>                   Allows the creation of a complex object by providing the information on only its type and content, keeping the details of the object creation transparent to the client. This allows the same construction process to produce different representations of the object.</p>
+</aside>
+
+
+---
+
+
+<!-- .slide: data-background="#2d2d2d" -->
+### Structural Design Patterns
+
+Structural Design Patterns are the ways we make up object and architecture composition, in order to gain functionality or cleaner code.
+
+<aside class="notes">
+		Notes
+</aside>
+
+
+--
+
+
+### Structural Design Patterns - Examples
+* Adapter
+* Bridge
+* Composite
+* Decorator 
+* Facade
+* Flyweight
+* Proxy
+
+
+<aside class="notes">
+<p><h4>Adapter</h4>         Adapts one interface for a class into one that a client expects</p>
+<p><h4>Bridge</h4>          Decouple an abstraction from its implementation so that the two can vary independently</p>
+<p><h4>Composite</h4>       A tree structure of objects where every object has the same interface</p>
+<p><h4>Decorator</h4>       Add additional functionality to a class at runtime where subclassing would result in an exponential rise of new classes</p>
+<p><h4>Facade</h4>          Create a simplified interface of an existing interface to ease usage for common tasks</p>
+<p><h4>Flyweight</h4>       A high quantity of objects share a common properties object to save space</p>
+<p><h4>Proxy</h4>           A class functioning as an interface to another thing</p>
+</aside>
+
+---
+
+
+<!-- .slide: data-background="#2d2d2d" -->
+### Behavioral Design Patterns
+
+Behavioral Design Patterns are ways how our code interacts with other code and how it performs.
+
+<aside class="notes">
+		Notes
+</aside>
+
+
+--
+
+
+### Behavioral Design Patterns - Examples
+* Chain of responsibility pattern
+* Command pattern
+* Iterator pattern
+* Null Object pattern
+* Observer pattern
+* Weak reference pattern
+* Protocol stack
+* Scheduled-task pattern
+* Specification pattern
+* State pattern
+* Template method pattern
+
+<aside class="notes">
+<p><h4>Chain of responsibility pattern</h4>         Command objects are handled or passed on to other objects by logic-containing processing objects</p>
+<p><h4>Command pattern</h4>                         Command objects encapsulate an action and its parameters</p>
+<p><h4>Iterator pattern</h4>                        Iterators are used to access the elements of an aggregate object sequentially without exposing its underlying representation</p>
+<p><h4>Null Object pattern</h4>                     designed to act as a default value of an object</p>
+<p><h4>Observer pattern</h4>                        aka Publish/Subscribe or Event Listener. Objects register to observe an event that may be raised by another object</p>
+<p><h4>Weak reference pattern</h4>                  De-couple an observer from an observable.</p>
+<p><h4>Protocol stack</h4>                          Communications are handled by multiple layers, which form an encapsulation hierarchy.</p>
+<p><h4>Scheduled-task pattern</h4>                  A task is scheduled to be performed at a particular interval or clock time (used in real-time computing)</p>
+<p><h4>Specification pattern</h4>                   Recombinable Business logic in a boolean fashion</p>
+<p><h4>State pattern</h4>                           A clean way for an object to partially change its type at runtime</p>
+<p><h4>Template method pattern</h4>                 Describes the program skeleton of a program</p>
+</aside>
+
+---
+
+
+<!-- .slide: data-background="#2d2d2d" -->
+### Real. World. Examples.
+* Enterprise vs In-the-trash (AKA Garbage)
+* Frameworks
+* Architecture
 
 <aside class="notes">
 		Notes
