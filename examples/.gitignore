@@ -1,0 +1,32 @@
+##### MAC OS X #####
+
+.DS_Store
+
+##### JAVA #####
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+*.log
+
+
+##### GRADLE #####
+
+# Gradle files
+.gradle/
+build/
+*/build
+
+# Android Studio files
+.idea/*
+*.iml
+captures/
+.navigation/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
