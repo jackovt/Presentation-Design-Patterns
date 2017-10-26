@@ -23,7 +23,7 @@ public class Main {
         // Adapter Design Pattern
         runAdapterExample();
 
-        // Structural Design Patterns
+        // Behavioral Design Patterns
         // Command Pattern
         runCommandExample();
 
