@@ -5,6 +5,7 @@
 ## Examples
 
 ### Java Examples
+Examples of how to use each of these design patterns can be found in [Main.java](java-examples/src/main/java/com/captechventures/java/examplecode/Main.java).
 
 #### Creational Patterns
 
