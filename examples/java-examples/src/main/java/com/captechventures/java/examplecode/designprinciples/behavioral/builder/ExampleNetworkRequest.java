@@ -1,8 +1,8 @@
 package com.captechventures.java.examplecode.designprinciples.behavioral.builder;
 
-import com.captechventures.java.examplecode.designprinciples.behavioral.builder.networking.NetworkParams;
-import com.captechventures.java.examplecode.designprinciples.behavioral.builder.networking.NetworkRequest;
-import com.captechventures.java.examplecode.designprinciples.behavioral.builder.networking.NetworkResponse;
+import com.captechventures.java.examplecode.common.networking.NetworkParams;
+import com.captechventures.java.examplecode.common.networking.NetworkRequest;
+import com.captechventures.java.examplecode.common.networking.NetworkResponse;
 
 public class ExampleNetworkRequest extends NetworkRequest<ExampleNetworkResponse> {
 

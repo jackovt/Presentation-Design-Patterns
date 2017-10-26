@@ -1,4 +1,4 @@
-package com.captechventures.java.examplecode.designprinciples.behavioral.builder.networking;
+package com.captechventures.java.examplecode.common.networking;
 
 import java.util.UUID;
 

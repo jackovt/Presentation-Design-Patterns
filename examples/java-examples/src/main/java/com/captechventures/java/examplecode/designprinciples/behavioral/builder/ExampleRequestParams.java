@@ -1,6 +1,6 @@
 package com.captechventures.java.examplecode.designprinciples.behavioral.builder;
 
-import com.captechventures.java.examplecode.designprinciples.behavioral.builder.networking.NetworkParams;
+import com.captechventures.java.examplecode.common.networking.NetworkParams;
 
 class ExampleRequestParams extends NetworkParams {
     private String objectId;
