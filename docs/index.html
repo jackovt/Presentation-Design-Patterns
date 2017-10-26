@@ -400,7 +400,35 @@ Behavioral Design Patterns are ways how our code interacts with other code and h
 
 
 ### Frameworks
-// TODO - Add items here about frameworks that use / encourage design patterns (Gson, OkHttp)
+* Many design patterns are already in use in frameworks and helper libraries you may already be using!
+    * Gson (Google's JSON library) (uses Builder pattern)
+    * OkHttp (Uses Builder pattern)
+    * RxJava (Uses Observer pattern)
+    * Log4j (Uses Factory pattern)
+
+<aside class="notes">
+		Notes
+</aside>
+
+
+--
+
+
+### Design Patterns Built Into the Languange
+* Abstract factory
+    * javax.xml.parsers.DocumentBuilderFactory
+* Builder
+    * java.lang.StringBuilder
+* Factory Method
+    * java.util.Calendar#getInstance()
+* Prototype
+    * java.lang.Object#clone()
+* Adapter
+    * java.util.Arrays#asList()
+* Command
+    * java.lang.Runnable
+* Interpreter
+    * java.util.Pattern
 
 <aside class="notes">
 		Notes
@@ -411,10 +439,12 @@ Behavioral Design Patterns are ways how our code interacts with other code and h
 
 
 ### Architecture
-// TODO - Add items here talking about architecture design and planning - planning on design patterns
+* Just Like Data Structures, Use Design Patterns where they make sense.
+* Design Patterns give code architects a common language to describe and build software.
+* Design patterns apply to more than just classes - they can apply to higher level abstractions within the software.
 
 <aside class="notes">
-		
+
 </aside>
 
 
