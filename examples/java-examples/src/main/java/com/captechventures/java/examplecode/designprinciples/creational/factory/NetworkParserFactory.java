@@ -1,4 +1,4 @@
-package com.captechventures.java.examplecode.designprinciples.behavioral.factory;
+package com.captechventures.java.examplecode.designprinciples.creational.factory;
 
 import com.captechventures.java.examplecode.common.StringDef;
 import com.captechventures.java.examplecode.common.networking.HalJsonNetworkParser;

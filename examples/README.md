@@ -19,7 +19,7 @@
 ##### Builder
 See an example of the Builder Pattern here, commonly used with Network Requests:
 
-* [.../behavioral/builder/ExampleNetworkRequest.java](blob/master/examples/java-examples/src/main/java/com/captechventures/java/examplecode/designprinciples/behavioral/builder/ExampleNetworkRequest.java)
+* [.../creational/builder/ExampleNetworkRequest.java](blob/master/examples/java-examples/src/main/java/com/captechventures/java/examplecode/designprinciples/behavioral/builder/ExampleNetworkRequest.java)
 
 #### Structural Patterns
 
@@ -48,4 +48,34 @@ See an example of the Adapter Pattern here, commonly used when merging older cod
 
 
 #### Behavioral Patterns
+
+##### Command pattern
+
+
+##### Iterator pattern
+
+
+##### Null Object pattern
+
+
+##### Observer pattern
+
+
+##### Weak reference pattern
+
+
+##### Protocol stack
+
+
+##### Scheduled-task pattern
+
+
+##### Specification pattern
+
+
+##### State pattern
+
+
+##### Template method pattern
+
 

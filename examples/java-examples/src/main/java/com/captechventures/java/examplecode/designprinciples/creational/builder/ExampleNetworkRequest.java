@@ -1,4 +1,4 @@
-package com.captechventures.java.examplecode.designprinciples.behavioral.builder;
+package com.captechventures.java.examplecode.designprinciples.creational.builder;
 
 import com.captechventures.java.examplecode.common.networking.NetworkParams;
 import com.captechventures.java.examplecode.common.networking.NetworkRequest;
